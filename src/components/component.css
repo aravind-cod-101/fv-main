@@ -1,0 +1,18 @@
+.incrementer {
+    display: inline-block;
+}
+
+.incrementer a {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 2px #aaaaaa;
+    border: 2px solid grey;
+}
+
+.incrementer .counter {
+    display: inline;
+    margin: 0 10px 0 10px;
+}

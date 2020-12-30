@@ -1,0 +1,164 @@
+.category-bar{
+    height: 40px;
+    width: 100%;
+    /* background-color: #86EEA0; */
+    background-color: #464d48ee;
+    margin-top: 0;
+    display:flex;
+    flex-direction: row;
+    border-top: 1px solid #2727265e;
+}
+
+.sticky_search {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky_search + .category-bar {
+    margin-top: 60px;
+  }
+
+.btbr{
+    /* border-bottom: 2px solid #E9D244; */
+}
+
+.rtbr{
+    border-right: 1px solid #E9D244;
+}
+
+.ctg-menu-item{
+    width: 278px;
+    height: 30px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-left: 20px;
+    border: 1px solid #3f3c37;
+    cursor: pointer;
+    margin: 0;
+}
+
+.ctg-menu-box-container{
+    display: flex;
+    width: 100%;
+    padding-bottom: 1rem;
+    flex: 1;
+    
+}
+
+.ctg-menu-box{
+    display: flex;
+    flex: 1;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ctg-menu-item:hover{
+    background-color: #3f3c373a;
+}
+
+
+
+.hovermenu{
+    background-color: #464d48ee;
+    color: #F3F5EB;
+    z-index: 1;
+    position: absolute;
+    top:30px;
+    width: 0;
+    height: 0;
+    display: none;
+    flex-direction: row;
+    
+}
+
+.hovermenu_container{
+    padding: 20px;
+    flex: 1;
+}
+
+.menu-header{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.sub-menu{
+    padding-left: 20px;
+}
+
+.submenu-content{
+    padding: 20px;
+    flex: 1;
+}
+
+.sub-menu-item{
+    padding: 2px;
+}
+
+.menu-header{
+    color: #E9D244;
+}
+
+.sub-menu-item:hover{
+    cursor: pointer;
+    color: #E9D244;
+    text-decoration: underline;
+}
+
+.sub-menu-selected{
+    color: #E9D244;
+}
+
+.ctg-menu:hover .hovermenu{
+    width: 800px;
+    height: auto;
+    display: flex;
+}
+
+
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+.cgt-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+
+.ctg-txt-container{
+    margin: 5px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cgt-txt{
+    margin-top: 1px;
+    font-size: 18px;
+    color: #F3F5EB;
+}
+
+
+.ctg-txt-container:hover{
+    border-bottom: 3px solid #E9D244;
+}
+
+
+@media only screen and (max-width:540px){
+    .category-bar{
+        display: none;
+        height: 0;
+        width: 0;
+    }
+}

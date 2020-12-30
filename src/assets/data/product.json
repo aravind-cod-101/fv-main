@@ -1,0 +1,141 @@
+[{
+    "id": "Product id 1",
+    "name": "Product Name 1",
+    "cost": 4500.0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "items-left": 5,
+    "tags": ["Best Selling"],
+    "image": [
+      "https://source.unsplash.com/collection/1163637/450x500",
+      "https://source.unsplash.com/collection/1163637/450x500"
+    ],
+    "discount-percent": "10%",
+    "discount-amount": 450.0,
+    "rating": 4.5,
+    "sold": 3,
+    "recommended": ["1", "2", "3"],
+    "category": ["chair", "furniture"],
+    "seller": {
+      "id": "Seller id",
+      "name": "Furniture Seller",
+      "verified": true
+    },
+    "details": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e",
+      "f": "f",
+      "g": "g",
+      "h": "h",
+      "i": "i",
+      "j": "j"
+    }
+  },
+  {
+    "id": "Product id 2",
+    "name": "Product Name 2",
+    "cost": 2000.0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "items-left": 5,
+    "tags": ["Best Selling"],
+    "image": [
+      "https://source.unsplash.com/collection/1163637/450x500",
+      "https://source.unsplash.com/collection/1163637/450x500"
+    ],
+    "discount-percent": "10%",
+    "discount-amount": 200.0,
+    "rating": 4.5,
+    "sold": 3,
+    "recommended": ["1", "2", "3"],
+    "category": ["chair", "furniture"],
+    "seller": {
+      "id": "Seller id",
+      "name": "Furniture Seller",
+      "verified": true
+    },
+    "details": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e",
+      "f": "f",
+      "g": "g",
+      "h": "h",
+      "i": "i",
+      "j": "j"
+    }
+  },
+  {
+    "id": "Product id 3",
+    "name": "Product Name 3",
+    "cost": 500.0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "items-left": 5,
+    "tags": ["Best Selling"],
+    "image": [
+      "https://source.unsplash.com/collection/1163637/450x500",
+      "https://source.unsplash.com/collection/1163637/450x500"
+    ],
+    "discount-percent": "20%",
+    "discount-amount": 100.0,
+    "rating": 4.5,
+    "sold": 3,
+    "recommended": ["1", "2", "3"],
+    "category": ["chair", "furniture"],
+    "seller": {
+      "id": "Seller id",
+      "name": "Furniture Seller",
+      "verified": true
+    },
+    "details": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e",
+      "f": "f",
+      "g": "g",
+      "h": "h",
+      "i": "i",
+      "j": "j"
+    }
+  },
+  {
+    "id": "Product id 4",
+    "name": "Product Name 4",
+    "cost": 6000.0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "items-left": 5,
+    "tags": ["Best Selling"],
+    "image": [
+      "https://source.unsplash.com/collection/1163637/450x500",
+      "https://source.unsplash.com/collection/1163637/450x500"
+    ],
+    "discount-percent": "5%",
+    "discount-amount": 300.0,
+    "rating": 4.5,
+    "sold": 3,
+    "recommended": ["1", "2", "3"],
+    "category": ["chair", "furniture"],
+    "seller": {
+      "id": "Seller id",
+      "name": "Furniture Seller",
+      "verified": true
+    },
+    "details": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e",
+      "f": "f",
+      "g": "g",
+      "h": "h",
+      "i": "i",
+      "j": "j"
+    }
+  }
+]

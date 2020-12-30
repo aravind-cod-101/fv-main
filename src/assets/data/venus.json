@@ -1,0 +1,395 @@
+[{
+        "product_id": "4884840",
+        "product_title": "Bed Room",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/1.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 5000,
+            "selling_price": 4000,
+            "discount": 20
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/5.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/11.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/BEDROOM/77.jpg"
+            }
+        ],
+        "product_category": "Home Interior",
+        "product_subcategory": "Bed Room",
+        "product_tags": ["bed room"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    },
+    {
+        "product_id": "4884849",
+        "product_title": "Hall",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/1.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 15000,
+            "selling_price": 15000,
+            "discount": 0
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/5.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/6.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/HALL/7.jpg"
+            }
+        ],
+        "product_category": "Home Interior",
+        "product_subcategory": "Hall",
+        "product_tags": ["Hall"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }, {
+        "product_id": "4884850",
+        "product_title": "Kitchen",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/1.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 4000,
+            "selling_price": 3600,
+            "discount": 10
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/5.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/1%20Home%20Interior/KITCHEN/6.jpg"
+            }
+        ],
+        "product_category": "Home Interior",
+        "product_subcategory": "Kitchen",
+        "product_tags": ["kitchen"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }, {
+        "product_id": "4884851",
+        "product_title": "CNC",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/CNC/1.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 5000,
+            "selling_price": 5000,
+            "discount": 0
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/CNC/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/CNC/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/CNC/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/CNC/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/CNC/5.jpg"
+            }
+        ],
+        "product_category": "Epoxy & CNC",
+        "product_subcategory": "CNC",
+        "product_tags": ["CNC"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }, {
+        "product_id": "4884852",
+        "product_title": "Epoxy",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/Epoxy%20&%20Cnc%20works%20icon.PNG",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 10000,
+            "selling_price": 8000,
+            "discount": 20
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/5.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/6.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/3%20Epoxy%20and%20CNC/EPOXY/7.jpg"
+            }
+        ],
+        "product_category": "Epoxy & CNC",
+        "product_subcategory": "CNC",
+        "product_tags": ["CNC"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }, {
+        "product_id": "4884853",
+        "product_title": "bed",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/3.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 20000,
+            "selling_price": 16000,
+            "discount": 20
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/5.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/6.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/7.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bed/8.jpg"
+            }
+        ],
+        "product_category": "Modular Furniture",
+        "product_subcategory": "Bed",
+        "product_tags": ["Bed"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }, {
+        "product_id": "4884854",
+        "product_title": "Bespoke Furniture",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/7.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 20000,
+            "selling_price": 16000,
+            "discount": 20
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/5.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/6.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/7.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/8.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/9.jpg"
+            }
+        ],
+        "product_category": "Modular Furniture",
+        "product_subcategory": "Bespoke Furniture",
+        "product_tags": ["Bespoke", "furniture"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }, {
+        "product_id": "4884855",
+        "product_title": "Sofa & Longers",
+        "product_description": "",
+        "product_thumbnail": "https://venusinterior.in/pics/4%20Customized%20furnishing/Sofa%20&%20Loungers/2.jpg",
+        "product_specification": [],
+        "product_price": {
+            "mrp": 20000,
+            "selling_price": 16000,
+            "discount": 20
+        },
+        "seller_details": {
+            "seller_name": "Venus Interior",
+            "seller_id": "1"
+        },
+        "product_images": [{
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/1.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/2.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/3.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/4.jpg"
+            },
+            {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/5.jpg"
+            }, {
+                "image_url": "https://venusinterior.in/pics/4%20Customized%20furnishing/Bespoke%20Furnitures/22.jpg"
+            }
+        ],
+        "product_category": "Modular Furniture",
+        "product_subcategory": "Sofa & Longers",
+        "product_tags": ["Sofa", "Longers"],
+        "product_highlights": [],
+        "product_varients": {
+            "isVariants": false,
+            "variants": []
+        },
+        "product_delivery": {
+            "min_time": "2",
+            "max_time": "5",
+            "delivery_charge": "100",
+            "packing_charge": "100"
+        }
+    }
+]

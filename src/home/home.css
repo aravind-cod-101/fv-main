@@ -1,0 +1,44 @@
+main {
+    position: relative;
+    margin: 0 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+@media(max-width:800px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    main {
+        margin: 0 5px;
+    }
+}
+
+@media(min-width:800px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+.supplier-home {
+    margin: 20px 0;
+}
+
+.supplier-home .supplier-card {
+    margin: 10px 0;
+}
+
+.exclusive-home {
+    margin-bottom: 20px;
+}
+
+.exclusive-home .card {
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+.item-slider{
+    /* background-color: blue; */
+    margin: 25px;
+}
+
+.slick-arrow{
+    background-color: brown;
+    height: 100%;
+}
+
+
+
+.list-view-container{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width:120px;
+    height: 120px; 
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-view-wrap{
+    width:120px;
+    height: 120px;     
+    text-align: center;
+}
+
+.list-view-wrap img{
+    width:90%;
+    height: 90%;  
+    padding: 10px;   
+    align-items: center;
+    justify-content: center;
+}

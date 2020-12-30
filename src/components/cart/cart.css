@@ -1,0 +1,22 @@
+.table {
+    width: 50% !important;
+    margin-left: 50px;
+}
+
+.price {
+    text-align: right;
+}
+
+.cart-total {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cart-btns .btn {
+    margin-left: 30px;
+}
+
+.btn-chocolate {
+    background-color: #D2691E !important;
+    color: #fff !important;
+}
