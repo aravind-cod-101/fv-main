@@ -12,7 +12,7 @@ import Incrementer from "../incrementer";
 import ProductCarousel from "./productCarousel";
 import "./product.css";
 
-var fetchProductByIdUrl = "https://cors-anywhere.herokuapp.com/http://13.127.249.221:8000/vendor/fetch/products";
+var fetchProductByIdUrl = "https://cors-anywhere.herokuapp.com/http://13.127.249.221:8000/vendor/fetch/products?product_id=";
 
 
 class Product extends Component {
@@ -25,12 +25,9 @@ class Product extends Component {
     super(props);
     this.state = { selected: 0, quantity: 1, cart: {} };
   }
-  updateState = ()=>{
-    this.getProductsList();
-}
-getProductsList = ()=>{
+getProductsList = (id)=>{
     return new Promise((resolve,reject)=>{
-        axios.get(fetchProductByIdUrl).then((res)=>{
+        axios.get(fetchProductByIdUrl+id).then((res)=>{
             let product = res.data.products[0];
             this.props.loadProduct(product);
             resolve();
@@ -48,7 +45,8 @@ getProductsList = ()=>{
     //   }
     // }
     // this.props.loadProduct(product);
-    this.updateState();
+    let id = this.props.match.params["id"];
+    this.getProductsList(id);
   }
 
   onImgChange = (i) => {
