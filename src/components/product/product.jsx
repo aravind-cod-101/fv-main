@@ -12,7 +12,7 @@ import Incrementer from "../incrementer";
 import ProductCarousel from "./productCarousel";
 import "./product.css";
 
-var fetchProductByIdUrl = "https://cors-anywhere.herokuapp.com/http://13.127.249.221:8000/vendor/fetch/products?product_id=";
+var fetchProductByIdUrl = "https://cors-anywhere.herokuapp.com/http://13.127.249.221:8000/web/fetch/product?product_id=";
 
 
 class Product extends Component {
@@ -28,7 +28,7 @@ class Product extends Component {
 getProductsList = (id)=>{
     return new Promise((resolve,reject)=>{
         axios.get(fetchProductByIdUrl+id).then((res)=>{
-            let product = res.data.products[0];
+            let product = res.data.product;
             this.props.loadProduct(product);
             resolve();
             reject("Fetching products failed");
