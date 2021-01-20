@@ -237,7 +237,7 @@ body,
     height: 100%;
 }
 
-/* .Image-Grid.container{
+.Image-Grid.container{
     max-width: 1180px;
 margin-left: auto;
 margin-right: auto;
@@ -366,4 +366,4 @@ margin: 0;
         padding-top: 15px;
         padding-bottom: 15px;
     }
-} */
+}

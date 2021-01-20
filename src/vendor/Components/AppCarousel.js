@@ -36,7 +36,7 @@ class AppCarousel extends Component {
             </Row>
           </Grid>
         </Carousel.Item>
-        <Carousel.Item className="SofaImageItem bg-dark">
+        {/* <Carousel.Item className="SofaImageItem bg-dark">
           <Grid className="Image-Grid">
             <Row className="Carousel-Content">
               <Col className="Main-Image-Col" sm={5} >
@@ -85,7 +85,7 @@ class AppCarousel extends Component {
               </Col>
             </Row>
           </Grid>
-        </Carousel.Item>
+        </Carousel.Item> */}
         </Carousel>
       </div>
     );

@@ -12,9 +12,9 @@ class AppNavbar extends Component {
             <Navbar.Brand className="Nav-Brand">
               <a href="#brand">BILMILLA</a>
             </Navbar.Brand>
-            <Navbar.Toggle className="Nav-Toggle"/>
+            {/* <Navbar.Toggle className="Nav-Toggle"/> */}
           </Navbar.Header>
-          <Navbar.Collapse className="Navbar-Collapse">
+          {/* <Navbar.Collapse className="Navbar-Collapse">
             <Nav className="Navbar-Nav">
               <NavItem className="App-Nav-Item" eventKey={1} href="#">
                 <span className="Nav-Item-Span">Category</span>
@@ -33,7 +33,7 @@ class AppNavbar extends Component {
               </NavItem>
               
             </Nav>
-          </Navbar.Collapse>
+          </Navbar.Collapse> */}
         </Navbar>
       </div>
     );
