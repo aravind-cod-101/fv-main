@@ -367,3 +367,7 @@ margin: 0;
         padding-bottom: 15px;
     }
 }
+
+.VendorApp h2, .VendorApp b{
+    margin-left: 100px;
+}

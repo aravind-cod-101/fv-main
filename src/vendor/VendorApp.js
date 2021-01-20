@@ -40,7 +40,7 @@ getProductsList = ()=>{
   render() {
     console.log("hello world");
     return (
-      <div className="App">
+      <div className="VendorApp">
         <AppNavbar />
         <AppCarousel />
         <Grid className="left-right-sidebar">
