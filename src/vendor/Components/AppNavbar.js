@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import logo1 from '../images/logo1.png';
 //import logo from './logo1.png'; // with import
 
 //Add in Index.html -> remaining bootstrap files
@@ -10,7 +11,13 @@ class AppNavbar extends Component {
         <Navbar className="App-Navbar" collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand className="Nav-Brand">
-              <a href="#brand">BISMILLA</a>
+              <div className="shoe-container">
+            <img src={logo1} alt=""
+              width="100px"
+                  height="-50px"
+                 />
+        </div>
+
             </Navbar.Brand>
             {/* <Navbar.Toggle className="Nav-Toggle"/> */}
           </Navbar.Header>
