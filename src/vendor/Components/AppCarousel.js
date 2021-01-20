@@ -11,7 +11,7 @@ class AppCarousel extends Component {
     return (
       <div className="AppCarousel container">
         <Carousel>
-        <Carousel.Item className="SofaImageItem bg-dark">
+        <Carousel.Item className="SofaImageItem">
           <Grid className="Image-Grid">
             <Row className="Carousel-Content">
               <Col className="Main-Image-Col" sm={5} >
