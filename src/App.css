@@ -1,0 +1,13 @@
+.container {
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.slick-arrow {
+    background-color: transparent;
+    height: 100%;
+}

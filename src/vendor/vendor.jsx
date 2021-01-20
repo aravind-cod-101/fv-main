@@ -96,6 +96,7 @@ getProductsList = ()=>{
         </div>
         <div className="vendor-products">
         {this.state.products.map((product,i)=>{
+          console.log(i)
             return <div className="product-container" key={i}>
             <div className="product-image">
                 <img src={product.product_thumbnail} alt={product.product_title}/>
@@ -135,4 +136,4 @@ getProductsList = ()=>{
   }
 }
 
-export default Vendor;
+export default Vendor; 

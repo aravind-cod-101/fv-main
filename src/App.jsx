@@ -6,6 +6,7 @@ import Home from "./home/home";
 import Product from "./components/product/product";
 import LoginPage from "./user/login";
 import Vendor from "./vendor/vendor";
+import VendorApp from './vendor/VendorApp'
 import NewVendor from "./vendor/newVendor";
 import Cart from "./components/cart/cart";
 import Order from "./components/cart/order";
@@ -21,7 +22,7 @@ import Navbar from "./components/Navbar/Navbar";
 import CategoryBar from "./components/CategoryBar/CategoryBar";
 import OpeningBanner from "./components/Banner/OpeningBanner";
 import RestrictMobile from "./components/util/RestrictMobile";
-import "./grid.css";
+// import "./grid.css";
 import "./App.css";
 
 const HomeRoute = ({ exact, path, component: Component }) => (
@@ -97,7 +98,7 @@ class App extends Component {
           <NavRoute path="/product/:id" component={Product} />
           <Route path="/vendor/new/membership" component={NewVendor} />
           <Route path="/vendor/new" component={NewVendor} />
-          <NavRoute path="/vendor/:id" component={Vendor} />
+          <Route path="/vendor/:id" component={VendorApp} />
           <Route path="/signin" component={LoginPage} />
           <NavRoute
             path="/catalogue"
