@@ -10,7 +10,7 @@ class AppNavbar extends Component {
         <Navbar className="App-Navbar" collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand className="Nav-Brand">
-              <a href="#brand">BILMILLA</a>
+              <a href="#brand">BISMILLA</a>
             </Navbar.Brand>
             {/* <Navbar.Toggle className="Nav-Toggle"/> */}
           </Navbar.Header>

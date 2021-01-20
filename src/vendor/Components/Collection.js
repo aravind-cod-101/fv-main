@@ -1,6 +1,7 @@
 import React  from 'react';
 import { Image } from 'react-bootstrap';
 import Slider from "react-slick";
+import {Link} from 'react-router-dom'
 import SofaImage1 from '../images/S1.jpg';
 import SofaImage2 from '../images/S2.jpg';
 import SofaImage3 from '../images/S3.jpg';
@@ -18,15 +19,15 @@ class Collection extends React.Component {
             centerMode: true,
             infinite: true,
             centerPadding: "60px",
-            slidesToShow: 3,
+            slidesToShow: 2,
             speed: 500,
             autoplay:true,
             responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
                         infinite: true,
                         dots: true
                     }
@@ -43,7 +44,37 @@ class Collection extends React.Component {
 	return (
 		<div className="container slick-class">
             <Slider className="slider-class" {...settings}>
-                <div className="slider-inner">
+            {this.props.products.map((product,i)=>{
+          console.log(i);
+            return <div className="product-container" key={i}>
+                <Link to={"/product/"+product.product_id}>
+            <div className="product-image">
+                <img src={product.product_thumbnail} alt={product.product_title}
+                  />
+            </div>
+            <div className="product-details">
+                <div className="product-name">{product["product_title"]}</div>
+                
+                <div className="product-rate">
+                    <div className="final-rate">
+                        ₹ {product["product_price"]["selling_price"]}
+                        {"   "}
+                    </div>
+                    {product["product_price"]["discount"] > 0 && (
+                        <div className="offer-rate">
+                        <div className="original-rate">
+                            ₹ {product["product_price"]["mrp"]}
+                        </div>
+                        </div>
+                    )}
+                </div>
+                <br/>
+                
+            </div>
+                </Link>
+        </div>
+          })}
+                {/* <div className="slider-inner">
                     <Image className="SofaImage" src={SofaImage1} />
                 </div>
                 <div className="slider-inner">
@@ -69,7 +100,7 @@ class Collection extends React.Component {
                 </div>
                  <div className="slider-inner">
                     <Image className="SofaImage" src={SofaImage9} />
-                </div>
+                </div> */}
             </Slider>
       </div>
       );

@@ -53,7 +53,7 @@ getProductsList = ()=>{
         </Grid>
        <h2 id="footnotes-label">Products</h2>
         <b>SOFA</b>
-        <Collection />
+        <Collection products={this.state.products}/>
       <b>CHAIR</b>
          <Collection1 />
           <b>TABLE</b>
