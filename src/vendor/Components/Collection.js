@@ -19,14 +19,14 @@ class Collection extends React.Component {
             centerMode: true,
             infinite: true,
             centerPadding: "60px",
-            slidesToShow: 2,
+            slidesToShow: 4,
             speed: 500,
             autoplay:true,
             responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 4,
                         slidesToScroll: 2,
                         infinite: true,
                         dots: true
