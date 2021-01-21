@@ -115,6 +115,7 @@ getProductsList = (id)=>{
                       <i className="fa fa-check-circle"></i>
                     </Link>
                   </div>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt labore.
                 </div>
                 <div className="product-rate">
                   <div className="final-rate">
