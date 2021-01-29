@@ -37,21 +37,32 @@ getProductsList = ()=>{
         });
     })
 }
+filterProducts = (category)=>{
+  const {products} = this.state;
+  return products.filter((product)=>product.product_category.toUpperCase() === category.toUpperCase());
+}
   render() {
+    let categories = ["Sofa","chair","table","Other Furniture"];
     console.log("hello world");
     return (
       <div className="VendorApp">
         <AppNavbar />
         <AppCarousel />
        <h2 id="footnotes-label">PRODUCTS</h2>
-        <b>SOFA</b>
+      {categories.map((category,key)=>{
+        return <React.Fragment key={key}>
+          <b>{category.toUpperCase()}</b>
+          <Collection products={this.filterProducts(category)}/>
+        </React.Fragment>
+      })}
+        {/* <b>SOFA</b>
         <Collection products={this.state.products}/>
         <b>CHAIR</b>
          <Collection1 />
           <b>TABLE</b>
           <Collection2 />
         <b>OTHER FURNITURE</b>
-           <Collection3 />     
+           <Collection3 />      */}
       </div>
     );
   }

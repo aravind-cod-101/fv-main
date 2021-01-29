@@ -27,7 +27,7 @@ class ProductCard extends Component {
               let to = "/vendor/" + count;
               return (
                 <Link key={i} to={to}>
-                  <img src={u} alt={count} className={className} />
+                  <img src={vendorImage} alt={count} className={className} />
                 </Link>
               );
             })}

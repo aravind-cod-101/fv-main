@@ -254,7 +254,9 @@ body,
     opacity: 10;
 }
 
-
+.slick-cloned{
+    display: none !important;
+}
 
 .Image-Grid.container{
     max-width: 1180px;
