@@ -37,8 +37,16 @@ getProductsList = ()=>{
         });
     })
 }
-filterProducts = (category)=>{
+filterProducts = (categories,key)=>{
   const {products} = this.state;
+  let category = categories[key];
+  if(category === "Other Furniture"){
+    for(let i in categories){
+      category = categories[i];
+      products = products.filter((product)=>product.product_category.toUpperCase() !== category.toUpperCase());
+    }
+    return products;
+  }
   return products.filter((product)=>product.product_category.toUpperCase() === category.toUpperCase());
 }
   render() {
@@ -52,7 +60,7 @@ filterProducts = (category)=>{
       {categories.map((category,key)=>{
         return <React.Fragment key={key}>
           <b>{category.toUpperCase()}</b>
-          <Collection products={this.filterProducts(category)}/>
+          <Collection products={this.filterProducts(categories,key)}/>
         </React.Fragment>
       })}
         {/* <b>SOFA</b>
