@@ -11,7 +11,7 @@ import Collection1 from './Components/Collection1';
 import Collection2 from './Components/Collection2';
 import Collection3 from './Components/Collection3';
 
-var fetchProductsUrl = "http://13.127.249.221:8000/vendor/fetch/products";
+var fetchProductsUrl = "https://squnic-cors.herokuapp.com/http://13.127.249.221:8000/vendor/fetch/products";
 class VendorApp extends Component {
    state = {
     products:[],
