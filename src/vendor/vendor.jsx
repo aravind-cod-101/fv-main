@@ -15,7 +15,7 @@ import Banner3 from "../assets/images/vendor/bismilla/img_3.jpg";
 import Banner4 from "../assets/images/vendor/bismilla/img_4.jpg";
 import Banner5 from "../assets/images/vendor/bismilla/img_5.jpg";
 
-var fetchProductsUrl = "https://squnic-cors.herokuapp.com//http://13.127.249.221:8000/vendor/fetch/products";
+var fetchProductsUrl = "https://squnic-cors.herokuapp.com/http://13.127.249.221:8000/vendor/fetch/products";
 
 class Vendor extends Component {
   state = {

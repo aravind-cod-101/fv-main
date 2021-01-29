@@ -38,7 +38,7 @@ getProductsList = ()=>{
     })
 }
 filterProducts = (categories,key)=>{
-  const {products} = this.state;
+  let products = this.state.products;
   let category = categories[key];
   if(category === "Other Furniture"){
     for(let i in categories){

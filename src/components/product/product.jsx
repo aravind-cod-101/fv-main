@@ -12,7 +12,7 @@ import Incrementer from "../incrementer";
 import ProductCarousel from "./productCarousel";
 import "./product.css";
 
-var fetchProductByIdUrl = "https://squnic-cors.herokuapp.com//http://13.127.249.221:8000/web/fetch/product?product_id=";
+var fetchProductByIdUrl = "https://squnic-cors.herokuapp.com/http://13.127.249.221:8000/web/fetch/product?product_id=";
 
 
 class Product extends Component {
