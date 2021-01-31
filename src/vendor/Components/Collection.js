@@ -57,7 +57,7 @@ class Collection extends React.Component {
                 
                 <div className="product-rate">
                     <div className="final-rate">
-                        ₹ {product["product_price"]["selling_price"]}
+                        Price: ₹ {product["product_price"]["selling_price"]}
                         {"   "}
                     </div>
                     {product["product_price"]["discount"] > 0 && (

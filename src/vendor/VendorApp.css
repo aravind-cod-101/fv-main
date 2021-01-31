@@ -131,6 +131,7 @@ body,
 
 .product-container {
     margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .top-products-bg {
@@ -155,7 +156,6 @@ body,
 }
 
 .top-products .product {
-    box-shadow: 5px 5px 5px gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,33 +180,51 @@ body,
 .product-image img{
     width:150px;
     height:150px;
+    position: relative;
+    margin: 20px;
+     justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    transition: .3s;
+
 }
 .product-details .product-name {
-    font-size: 30px;
-    font-weight: 500;
-    transform: translateX(-3px);
+    font-size: 20px;
+    font-weight:20;
+     margin-left:20px;
+
+   
+    
 }
 .product-rate {
     font-size: 20px;
-    float: left;
-    margin-left:10px;
+    
+
 }
 .final-rate,
 .offer-rate,
 .original-rate,
 .discount-percent {
-    display: inline-block;
+    
+   
+    font-size: 15px;
+    font-weight: 40;
+
 }
 
 .final-rate {
-    margin-right: 10px;
+   
+  
+   margin-left:10px;
+    
 }
 
 .original-rate {
-    margin-right: 10px;
-    font-size: 15px;
-    font-weight: 100;
-    text-decoration: line-through;
+
+    
+      margin-left:10px;
+
 }
 
 .manage-btns{
@@ -254,9 +272,7 @@ body,
     opacity: 10;
 }
 
-.slick-cloned{
-    display: none !important;
-}
+
 
 .Image-Grid.container{
     max-width: 1180px;
