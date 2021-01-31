@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-import BismillaLogo from "../assets/images/vendor/bismilla/bismillah logo-1.jpg";
-import ThreeStarLogo from "../assets/images/vendor/threestar/ThreeStarLogo.jpeg";
-import RoomGearLogo from "../assets/images/vendor/roomgear/RoomGearLogo.jpeg";
+import BismillaLogo from "../assets/images/vendor/bismilla/logo1.jpg";
+import ThreeStarLogo from "../assets/images/vendor/threestar/ThreeStarLogo.png";
+import RoomGearLogo from "../assets/images/vendor/roomgear/RoomGearLogo.png";
 import VenusLogo from "../assets/images/vendor/venus/logo.png";
 
 class ProductCard extends Component {
