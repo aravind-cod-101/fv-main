@@ -1,0 +1,30 @@
+.card-img:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.15);
+}
+
+.carousel-img:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.15);
+}
+.card {
+  text-align: center;
+}
+.product-title {
+  color: blue;
+  font-weight: bold;
+  font-size: 17px;
+}
+.product-price {
+  padding-top: 8px;
+  font-size: 13px;
+}
+
+.product-price strike {
+  color: rgb(184, 23, 23);
+  margin-right: 5px;
+}
+.product-price span {
+  color: #3f8601;
+  font-size: 110%;
+}
